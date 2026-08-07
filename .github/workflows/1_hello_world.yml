@@ -10,4 +10,7 @@ jobs:
 
     steps:
       - name: Say hello
-        run: echo "Hello World"
+        run: |
+          echo "Hello World"
+          echo "I am learning github workflows"
+          echo "This is running on ubuntu-latest"
