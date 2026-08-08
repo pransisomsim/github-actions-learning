@@ -12,3 +12,4 @@ if __name__ == '__main__':
     print(Student.course)
 
     print('This script is working')
+    print('This script reach this line!')
