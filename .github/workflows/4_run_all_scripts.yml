@@ -1,0 +1,24 @@
+
+name: Run multiple scripts
+
+on:
+  push:
+    paths: "exercises/02_multiple_scripts/**"
+
+jobs:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+
+    - name: Run multiple scripts
+      run: |
+        python exercises/02_multiple_scripts/sum_digits.py
+        python exercises/02_multiple_scripts/calculator.py
+        echo "all scripts are running successfully!"
