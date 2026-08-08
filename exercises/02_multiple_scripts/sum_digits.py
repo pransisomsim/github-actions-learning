@@ -11,3 +11,4 @@ def sum_digit(number):
 print(sum_digit(123))
 print(sum_digit(456))
 print(sum_digit(789))
+print(sum_digit(66))
