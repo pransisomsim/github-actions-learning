@@ -3,7 +3,7 @@ name: Run exercises path
 
 on:
   push:
-  paths: "exercises/01_classes/**"
+    paths: "exercises/01_classes/**"
 
 jobs:
   run_script:
