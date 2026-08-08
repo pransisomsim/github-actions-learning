@@ -21,5 +21,6 @@ jobs:
       - name: Run multiple scripts
         run: |
           python exercises/02_multiple_scripts/sum_digits.py
+          python exercises/02_multiple_scripts/not_exists.py
           python exercises/02_multiple_scripts/calculator.py
           echo "all scripts are running successfully!"
