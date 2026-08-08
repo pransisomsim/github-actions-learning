@@ -10,3 +10,5 @@ class Student:
 if __name__ == '__main__':
     print(Student.name)
     print(Student.course)
+
+    print('This script is working')
