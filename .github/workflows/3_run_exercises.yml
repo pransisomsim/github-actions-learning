@@ -5,7 +5,7 @@ with:
   python-version: "3.12"
 on:
   push:
-  paths: "exercises/01_class/**"
+  paths: "exercises/01_classes/**"
 
 jobs:
   run_script:
