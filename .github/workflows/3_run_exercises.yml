@@ -1,0 +1,19 @@
+
+name: Run exercises path
+uses: actions/setup-python@v5
+with:
+  python-version: "3.12"
+on:
+  push:
+  paths: "exercises/01_class/**"
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: run_script
+        run: |
+          python3 exercises/01_class/class1.py
+          echo "this python scripts is working"
+
